@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--?xml version="1.0" standalone="no"?-->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300.000000pt"
+   height="288.000000pt"
+   viewBox="0 0 300.000000 288.000000"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="train-station.svg">
+  <metadata
+     id="metadata27">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs25" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1380"
+     inkscape:window-height="778"
+     id="namedview23"
+     showgrid="false"
+     inkscape:zoom="1.6"
+     inkscape:cx="-28.75"
+     inkscape:cy="180"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <g
+     transform="matrix(0.1,0,0,-0.1,-75.56518,311.84693)"
+     id="g4"
+     style="fill:#c87137;stroke:none">
+    <path
+       class="node"
+       id="node1"
+       d="m 2845,2785 c -77,-45 -207,-122 -290,-170 -82,-47 -217,-126 -300,-174 -82,-49 -231,-136 -330,-193 l -180,-105 0,-49 0,-49 320,-5 320,-5 3,-553 2,-553 -152,3 -166.5962,3 16.5962,155 c 3,119 7,159 19,172 12,13 14,44 11,158 -3,127 -5,143 -22,156 -30,21 -102,18 -126,-6 -18,-18 -20,-33 -20,-162 0.25,-27.5 -64.375,-150.5 -63.7812,-169.75 0.5937,-19.25 81.4062,105.25 82.5312,92.75 2.25,-25 -9.25,-78 -3.75,-85 12,-15 15,-53 15,-168 l 11.2038,-148 -212.6019,10 16.199,127.5 c 0,0 -11.1201,118.6277 24.8249,155.1563 8.8474,8.991 -0.6149,73.4963 2.7151,90.1968 3.33,16.7004 59.4522,-89.4039 59.4685,-71.6322 0.032,35.5436 -44.3586,141.5916 -44.3586,141.5916 l -26.1751,135.6568 -141.175,0 -19.7002,-150.7193 c 0,0 2.7169,-104.6871 30.2997,-149.375 C 1707.1003,1175.6033 1696,1070 1696,1070 l 19.875,-137 c 0,0 -207.875,-8 -208.875,-10 -2,-5 -2,-25 0,-45 l 5,-38 203,0 202,0 6,-137 c 4,-75 7,-169 7,-210 l 0,-73 535,0 535,0 0,1225 c 0,674 -3,1225 -7,1224 -5,0 -71,-38 -148,-84 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccsccscsscscccsssccccsccccccccscccscc"
+       style="fill:#c87137" />
+    <path
+       class="node"
+       id="node5"
+       d="m 2006,1717 c -22,-16 -18,-65 5,-80 23,-14 67,0 74,24 8,25 -19,69 -43,69 -10,0 -26,-6 -36,-13 z"
+       inkscape:connector-curvature="0"
+       style="fill:#c87137" />
+  </g>
+  <ellipse
+     style="opacity:1;fill:#c87137"
+     id="path3375"
+     cx="98.25"
+     cy="151.75"
+     rx="5.25"
+     ry="5.75" />
+</svg>

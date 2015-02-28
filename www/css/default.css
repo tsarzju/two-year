@@ -1,0 +1,212 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+canvas {
+  position: absolute;
+  display: block;
+  width: 120%;
+  top: -20px;
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    margin: 0px;
+    height: 100%;
+}
+
+.logo-rotate {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  width: 25%
+}
+
+.navlist li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.logo {
+  -moz-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  width: 25%
+}
+
+.love {
+  -moz-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  width: 25%
+}
+
+.label {
+  position: fixed;
+  top: 150px;
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+  margin-top: 70px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.wrapper {
+  position: relative;
+  top:-100px;
+}
+
+#train {
+  width: 15%;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+  position: fixed;
+  top: 100px;
+  left: 50px;
+}
+
+.rotate {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+#station-sh {
+  width: 25%;
+  position: fixed;
+  top: 20px;
+  left: -15px;
+}
+
+#station-hz {
+  width: 30%;
+  position: fixed;
+  top: 380px;
+  left: 245px;
+}
+
+.run {
+  animation: run 10s steps(500, start) infinite;
+  -webkit-animation: run 10s steps(500, start) infinite;
+}
+
+@keyframes run {
+  75% {
+    width: 45%
+    top: 400px;
+    left: 90px;
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+    transform: rotate(5deg);
+  }
+  100% {
+    width: 45%
+    top: 440px;
+    left: 110px;
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+    transform: rotate(5deg);
+  }
+}
+
+@-webkit-keyframes run {
+  75% {
+    width: 45%;
+    top: 400px;
+    left: 90px;
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+    transform: rotate(5deg);
+  }
+  100% {
+    width: 45%;
+    top: 440px;
+    left: 110px;
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+    transform: rotate(5deg);
+  }
+}
+
+.smaller {
+  animation: smaller 10s steps(500, start) infinite;
+  -webkit-animation: smaller 10s steps(500, start) infinite;
+}
+
+@keyframes smaller {
+  to {
+    width: 10%
+    left: 0px;
+  }
+}
+
+@-webkit-keyframes smaller {
+  to {
+    width: 10%;
+    left: 0px;
+  }
+}
+
+.larger {
+  animation: larger 10s steps(500, start) infinite;
+  -webkit-animation: larger 10s steps(500, start) infinite;
+}
+
+@keyframes larger {
+  to {
+    width: 45%
+  }
+}
+
+@-webkit-keyframes larger {
+  to {
+    width: 45%;
+  }
+}
+
+#distance {
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+
+#distance span {
+  font-style: serif;
+  font-size: 20px;
+  color: #ffffff;
+}

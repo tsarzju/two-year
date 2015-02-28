@@ -1,0 +1,413 @@
+li{
+  list-style: none;
+}
+body{
+  background: skyblue;
+}
+.plane{
+  width: 4px;
+  height: 4px;
+  background: black;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  box-shadow: 0px 0px 0px 0px,
+    0px 3px 0px 0px,
+    0px 6px 0px 0px,
+    0px 9px 0px 0px,
+    0px 13px 0px 0px,
+    0px 16px 0px 0px,
+    0px 19px 0px 0px,
+    0px 23px 0px 0px,
+    0px 26px 0px 0px,
+    0px 29px 0px 0px,
+    3px 0px 0px 0px,
+    6px 0px 0px 0px,
+    10px 4px 0px 0px,
+    14px 8px 0px 0px,
+    14px 12px 0px 0px,
+    14px 15px 0px 0px,
+    14px 18px 0px 0px,
+    14px 21px 0px 0px,
+    17px 24px 0px 0px,
+    21px 28px 0px 0px,
+    24px 28px 0px 0px,
+    28px 28px 0px 0px,
+    32px 28px 0px 0px,
+    35px 28px 0px 0px,
+    38px 28px 0px 0px,
+    41px 28px 0px 0px,
+    44px 28px 0px 0px,
+    47px 28px 0px 0px,
+    50px 28px 0px 0px,
+    53px 28px 0px 0px,
+    54px 28px 0px 0px,
+    57px 28px 0px 0px,
+    60px 28px 0px 0px,
+    63px 28px 0px 0px,
+    66px 28px 0px 0px,
+    69px 28px 0px 0px,
+    57px 28px 0px 0px,
+    73px 31px 0px 0px,
+    77px 35px 0px 0px,
+    80px 38px 0px 0px,
+    80px 40px 0px 0px,
+    80px 43px 0px 0px,
+    73px 35px 0px 0px,
+    70px 35px 0px 0px,
+    70px 38px 0px 0px,
+    70px 39px 0px 0px,
+    73px 39px 0px 0px,
+    76px 39px 0px 0px,
+    70px 43px 0px 0px,
+    73px 43px 0px 0px,
+    76px 43px 0px 0px,
+    79px 47px 0px 0px,
+    76px 50px 0px 0px,
+    73px 53px 0px 0px,
+    69px 53px 0px 0px,
+    66px 53px 0px 0px,
+    63px 53px 0px 0px,
+    60px 53px 0px 0px,
+    57px 53px 0px 0px,
+    55px 53px 0px 0px,
+    52px 53px 0px 0px,
+    49px 49px 0px 0px,
+    46px 49px 0px 0px,
+    43px 49px 0px 0px,
+    40px 49px 0px 0px,
+    40px 53px 0px 0px,
+    40px 56px 0px 0px,
+    40px 59px 0px 0px,
+    43px 59px 0px 0px,
+    46px 59px 0px 0px,
+    48px 59px 0px 0px,
+    52px 57px 0px 0px,
+    36px 53px 0px 0px,
+    32px 53px 0px 0px,
+    29px 53px 0px 0px,
+    26px 53px 0px 0px,
+    23px 53px 0px 0px,
+    20px 53px 0px 0px,
+    16px 53px 0px 0px,
+    13px 53px 0px 0px,
+    7px 49px 0px 0px,
+    4px 46px 0px 0px,
+    0px 42px 0px 0px,
+    -3px 42px 0px 0px,
+    -6px 42px 0px 0px,
+    -9px 42px 0px 0px,
+    -13px 42px 0px 0px,
+    -17px 39px 0px 0px,
+    -21px 36px 0px 0px,
+    -17px 36px 0px 0px,
+    -14px 36px 0px 0px,
+    -11px 36px 0px 0px,
+    -8px 36px 0px 0px,
+    -4px 36px 0px 0px,
+    0px 36px 0px 0px,
+    0px 33px 0px 0px,
+    11px 51px 0px 0px
+    ;
+  -webkit-animation: move 10s infinite;
+  -moz-animation: move 10s infinite;
+  -ms-animation: move 10s infinite;
+}
+@-webkit-keyframes move{
+  10%{
+    top: 100px;
+  }
+  20%{
+    top: 200px;
+  }
+  30%{
+    top: 300px;
+  }
+  40%{
+    top: 350px;
+  }
+  50%{
+    top: 200px;
+  }
+  60%{
+    top: 150px;
+  }
+  70%{
+    top: 130px;
+  }
+  80%{
+    top: 130px;
+  }
+  100%{
+    top: 100px;
+  }
+}
+@-moz-keyframes move{
+  10%{
+    top: 100px;
+  }
+  20%{
+    top: 200px;
+  }
+  30%{
+    top: 300px;
+  }
+  40%{
+    top: 350px;
+  }
+  50%{
+    top: 200px;
+  }
+  60%{
+    top: 150px;
+  }
+  70%{
+    top: 130px;
+  }
+  80%{
+    top: 130px;
+  }
+  100%{
+    top: 100px;
+  }
+}
+@-ms-keyframes move{
+  10%{
+    top: 100px;
+  }
+  20%{
+    top: 200px;
+  }
+  30%{
+    top: 300px;
+  }
+  40%{
+    top: 350px;
+  }
+  50%{
+    top: 200px;
+  }
+  60%{
+    top: 150px;
+  }
+  70%{
+    top: 130px;
+  }
+  80%{
+    top: 130px;
+  }
+  100%{
+    top: 100px;
+  }
+}
+
+
+
+
+
+
+
+/*PLANE*/
+.cloud1{
+  position: absolute;
+  top: 15px;
+  left: 525px;
+  -webkit-animation: float 5s infinite;
+  -moz-animation: float 5s infinite;
+  -ms-animation: float 5s infinite;
+  -webkit-animation-delay: 350ms;
+  -moz-animation-delay: 350ms;
+  -ms-animation-delay: 350ms;
+  opacity: 0.7;
+}
+.cloud1 li:nth-child(1){
+  width:120px;
+  height: 35px;
+  position: absolute;
+  top: 30px;
+  left: 65px;
+  border-radius: 50px;
+  background: white;
+}
+.cloud1 li:nth-child(2){
+  width: 60px;
+  height: 55px;
+  position: absolute;
+  top: 5px;
+  left: 75px;
+  border-radius: 50px;
+  background: white;
+  }
+.cloud1 li:nth-child(3){
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 10px;
+  left: 125px;
+  border-radius: 50px;
+  background: white;
+  }
+/*cloud2*/
+.cloud2{
+  position: absolute;
+  top: 315px;
+  left: -325px;
+  -webkit-animation: float2 3s infinite;
+  -moz-animation: float2 3s infinite;
+  -ms-animation: float2 3s infinite;
+  -webkit-animation-delay: 700ms;
+  -moz-animation-delay: 700ms;
+  -ms-animation-delay: 700ms;
+  opacity: 0.7;
+}
+.cloud2 li:nth-child(1){
+  width:120px;
+  height: 35px;
+  position: absolute;
+  top: 30px;
+  left: 65px;
+  border-radius: 50px;
+  background: white;
+
+}
+.cloud2 li:nth-child(2){
+  width: 60px;
+  height: 55px;
+  position: absolute;
+  top: 5px;
+  left: 75px;
+  border-radius: 50px;
+  background: white;
+  }
+.cloud2 li:nth-child(3){
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 10px;
+  left: 125px;
+  border-radius: 50px;
+  background: white;
+  }
+
+/*cloud3*/
+.cloud3{
+  position: absolute;
+  top: 115px;
+  left: -325px;
+  -webkit-animation: float2 3s infinite;
+  -moz-animation: float2 3s infinite;
+  -ms-animation: float2 3s infinite;
+  -webkit-animation-delay: 900ms;
+  -moz-animation-delay: 1100ms;
+  -ms-animation-delay: 1100ms;
+  opacity: 0.7;
+}
+.cloud3 li:nth-child(1){
+  width:120px;
+  height: 35px;
+  position: absolute;
+  top: 30px;
+  left: 65px;
+  border-radius: 50px;
+  background: white;
+
+}
+.cloud3 li:nth-child(2){
+  width: 60px;
+  height: 55px;
+  position: absolute;
+  top: 5px;
+  left: 75px;
+  border-radius: 50px;
+  background: white;
+  }
+.cloud3 li:nth-child(3){
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 0px;
+  left: 115px;
+  border-radius: 50px;
+  background: white;
+  }
+@-webkit-keyframes float
+{
+  from{
+    left: 100%;
+  }to{
+    left: -300px;
+  }
+
+}
+@-webkit-keyframes float2
+{
+ from{
+    left: 100%;
+  }to{
+    left: -300px;
+  }
+
+}
+@-webkit-keyframes float3
+{
+ from{
+    left: 100%;
+  }to{
+    left: -300px;
+  }
+
+}
+
+@-moz-keyframes float
+{
+ from{
+    left: 100%;
+  }to{
+    left: -300px;
+  }
+
+}
+@-moz-keyframes float2
+{
+from{
+    left: 100%;
+  }to{
+    left: -300px;
+  }
+
+}
+@-moz-keyframes float3
+{
+  from{
+    left: 100%;
+  }to{
+    left: -300px;
+  }
+
+}@-ms-keyframes float
+{
+from{
+    left: 100%;
+  }to{
+    left: -300px;
+  }
+
+}
+@-ms-keyframes float2
+{
+ from{
+    left: 100%;
+  }to{
+    left: -300px;
+  }
+
+}
+@-ms-keyframes float3
+{
+  from{
+    left: 100%;
+  }to{
+    left: -300px;
+  }
+
+}
